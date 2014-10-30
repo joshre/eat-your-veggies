@@ -1,0 +1,13 @@
+---
+layout: page
+title: Vegetables
+---
+
+<h2 class="center">Vegetables</h2>
+Oh <em>hell</em> yes.
+
+     {% assign vegetables = site.vegetables | sort: 'order' %}
+       	{% for vegetable in vegetables %}
+           <a href="{{vegetable.url}}"><h2>{{vegetable.title}}</h2></a>
+           <p>{{vegetable.content}}</p>
+    {% endfor %}
