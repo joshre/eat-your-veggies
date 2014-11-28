@@ -1,5 +1,5 @@
 ---
 layout: vegetable
-title: Tomato
+title: Onion
 prep: Raw, Skillet, Grill, Oven, Boil
 ---

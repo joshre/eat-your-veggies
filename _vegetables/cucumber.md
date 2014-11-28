@@ -1,5 +1,5 @@
 ---
 layout: vegetable
-title: Tomato
+title: Cucumber
 prep: Raw, Skillet, Grill, Oven, Boil
 ---

@@ -1,5 +1,5 @@
 ---
 layout: vegetable
-title: Tomato
+title: Butternut Squash
 prep: Raw, Skillet, Grill, Oven, Boil
 ---

@@ -1,0 +1,8 @@
+.vegetable-content {
+    p:first-of-type{
+         @include span-columns(8);
+    }
+    img:first-of-type{
+        @include span-columns(4);
+    }
+}
