@@ -1,9 +1,9 @@
 # Site settings
-title: Eat Your Veggies
+title: Veggies.io
 email: your-email@domain.com
 description: Simplify healthy.
-baseurl: "/eat-your-veggies" # the subpath of your site, e.g. /blog/
-url: "http://joshre.github.io/eat-your-veggies" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "veggies.io" # the base hostname & protocol for your site
 
 
 # Build settings
