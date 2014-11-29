@@ -7,7 +7,7 @@ illustration: bell-pepper.png
 
 Lets just get this out of the way up front: bell peppers have seeds, and are [technically fruit](http://www.mayoclinic.org/healthy-living/nutrition-and-healthy-eating/expert-blog/fruit-vegetable-difference/bgp-20056141). Bell peppers are a low-to-non pungent pepper, sometimes considerably sweet. They're full of antioxidants and Vitamin C—Generally speaking, red peppers have more vitamins and antioxidants, with twice the vitamin C and nine times the Carotene & Lycopene.
 
-![Bell Pepper](/resources/vegetables/{{page.illustration}})
+![Bell Pepper]({{ site.baseurl }}/resources/vegetables/{{page.illustration}})
 
 ### General Prep
 

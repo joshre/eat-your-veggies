@@ -7,7 +7,7 @@ illustration: carrot.png
 
 The Carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh. The most commonly eaten part of a carrot is a taproot, although the greens are sometimes eaten as well.
 
-![{{page.title}} illustration](/resources/vegetables/{{page.illustration}})
+![{{page.title}} illustration]({{ site.baseurl }}/resources/vegetables/{{page.illustration}})
 
 ### General Prep
 
