@@ -1,7 +1,8 @@
 ---
 layout: vegetable
 title: Carrot
-prep: Raw, Skillet, Grill, Oven, Boil
+prep:
+color: df922e
 illustration: carrot.png
 main: >
     The Carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh. The most commonly eaten part of a carrot is a taproot, although the greens are sometimes eaten as well.

@@ -1,9 +1,27 @@
 .vegetables{
-    
-    @include standard-wrap;
-    
+        
     h2{
         text-align: center;
     }
-
+    @include span-columns(10 of 12);
+    @include shift(1);
+    
+    a {
+        
+        @include span-columns(6 of 12);
+        @include omega;
+        @include transition(all 0.2s ease-in-out);
+        
+        padding: 1em 0;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: $base-serif-font;
+        font-size: $spacing-unit * 1.6;
+        
+        
+        &:hover{
+            
+        }
+    }
 }
