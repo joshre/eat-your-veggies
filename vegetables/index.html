@@ -7,13 +7,11 @@ title: Vegetables
 
     <h2>Vegetables</h2>
         
-        <ul>
             {% assign vegetables = site.vegetables | sort: 'order' %}
             {% for vegetable in vegetables %}
    
-            <li><a href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a></li>
-   
+            <a style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
+               
             {% endfor %}
-        </ul>
 
 </div>

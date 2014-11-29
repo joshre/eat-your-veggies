@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<article class="vegetable">
+<article style="background-color: #{{page.color}};" class="vegetable">
     
     <aside>
     
         {% assign illustration = page.illustration %}
         {% if illustration %}
-            <img alt="{{page.title}} Illustration" src="{{ site.baseurl }}/resources/vegetables/{{illustration}}" />
+            <img alt="{{page.title}} Illustration" src="{{ site.baseurl }}/resources/vegetables-white/{{illustration}}" />
         {% endif %}
     
     </aside>

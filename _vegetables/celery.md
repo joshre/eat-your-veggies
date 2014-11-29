@@ -2,6 +2,7 @@
 layout: vegetable
 title: Celery
 prep:
+color: ccd579
 illustration: celery.png
 main: >
     Celery is used around the world as a vegetable for the crisp petiole (leaf stalk). The leaves are strongly flavoured and are used less often, either as a flavouring in soups and stews or as a dried herb.
