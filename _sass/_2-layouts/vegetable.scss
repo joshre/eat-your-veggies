@@ -8,9 +8,11 @@
         h1{
             font-size: 3em;
             font-weight: 400;
+            
             @include media-query($mamabear){ 
-                 text-align: center;
-                 margin-top: $spacing-unit * .4;
+                text-align: center;
+                margin-top: $spacing-unit * .4;
+                font-size: 2em;
              }
          }
 
