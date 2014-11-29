@@ -4,7 +4,6 @@ test/dest
 pkg/
 *.swp
 *~
-_site/
 .bundle/
 .DS_Store
 bbin/
@@ -14,3 +13,4 @@ coverage
 .ruby-version
 .sass-cache
 tmp/stackprof-*
+_site/
