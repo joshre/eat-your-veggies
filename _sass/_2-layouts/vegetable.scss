@@ -1,8 +1,69 @@
-.vegetable-content {
-    p:first-of-type{
-         @include span-columns(8);
+.vegetable{
+    margin-top: $spacing-unit * 2.5;
+    header{
+        @include span-columns(7 of 12);
+        @include shift(1);
+        float: none;
+
+        h1{
+            font-size: 3em;
+            font-weight: 400;
+            @include media-query($mamabear){ 
+                 text-align: center;
+                 margin-top: $spacing-unit * .4;
+             }
+         }
+
+        @include media-query($mamabear){
+            @include span-columns(10);
+            @include shift(1);
+        }
+
     }
-    img:first-of-type{
-        @include span-columns(4);
+    
+    .veg-paragraph{
+        font-size: $base-font-size * 1.2;
+        margin-bottom: $spacing-unit * 1.6;
+        @include span-columns(6 of 12);
+        @include shift(1);
+        @include media-query($mamabear){
+            @include span-columns(10);
+            @include shift(1);
+            font-size: $base-font-size;
+        }
+    }
+    
+    aside{
+         
+        @include span-columns(4 of 12);
+        @include clearfix;
+         
+        float: right;
+        margin-top: $spacing-unit * 2;
+        
+        @include media-query($mamabear){
+
+            float: none;
+            margin-top: 0px;
+            
+            @include span-columns(12);
+            img {
+                display: block;
+                margin: 0px auto;
+                max-width: 30%
+            }
+         }
+    }
+    .veg-wrap{
+        margin-top: $spacing-unit;
+        @include span-columns(12);
+        background-color: $grey-color-lightest;
+        @include media-query($mamabear){
+            @include span-columns(12);
+        }
+    }
+    .veg-content{
+        @include span-columns(10 of 12);
+        @include shift(1);
     }
 }
