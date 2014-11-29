@@ -1,6 +1,7 @@
 .home{
     @include standard-wrap;
     margin-top: $spacing-unit;
+    font-size: $spacing-unit * 1.2;
     h1{
         text-align: center;
         font-size: $base-font-size * 2.5;
