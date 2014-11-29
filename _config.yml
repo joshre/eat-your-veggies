@@ -3,7 +3,7 @@ title: Eat Your Veggies
 email: your-email@domain.com
 description: Simplify healthy.
 baseurl: "eat-your-veggies" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://joshre.github.io/eat-your-veggies/" # the base hostname & protocol for your site
 
 
 # Build settings
