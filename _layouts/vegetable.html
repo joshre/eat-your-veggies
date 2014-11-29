@@ -1,14 +1,34 @@
 ---
 layout: default
 ---
-<article class="vegetables">
+<div class="vegetable">
+       <aside>
 
-  <header class="vegetable-header">
-    <h1 class="vegetable-title">{{ page.title }}</h1>
-  </header>
+        {% assign illustration = page.illustration %}
+        {% if illustration %}
+            <img alt="{{page.title}} Illustration" src="{{ site.baseurl }}/resources/vegetables/{{illustration}}" />
+        {% endif %}
 
-    <article class="vegetable-content">
-        {{ content }}
+    </aside>
+    <header>
+    
+        <h1>{{ page.title }}</h1>
+    
+    </header>
+
+    <article class="veg-paragraph">
+        
+        {{ page.main }}
+
     </article>
+    <div class="veg-wrap">
 
-</article>
+        <article class="veg-content">
+    
+            {{content}}
+    
+        </article>
+
+    </div>
+    
+</div>

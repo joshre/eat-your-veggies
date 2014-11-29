@@ -1,3 +1,3 @@
-# Simplify healthy.
+<h2 class="center">{{page.title}}</h2>
 
 Here's the thing: being healthy is kind of a thing now, and as a result lots of people are really into making dough off of it (not to mistake with gluten, related: it's unhealthy). Anyways, as a result of all the money in health, there's a *ton* of information that can lead to pretty inconclusive and misleading knowledge of how to eat healthy. This is a resource to help people make their own decisions by providing a little information as well as practical methods of using it day-to-day.
