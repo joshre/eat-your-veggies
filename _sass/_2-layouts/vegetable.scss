@@ -22,19 +22,6 @@
         }
 
     }
-    
-    .veg-paragraph{
-        font-size: $base-font-size * 1.2;
-        margin-bottom: $spacing-unit * 1.6;
-        @include span-columns(6 of 12);
-        @include shift(1);
-        @include media-query($mamabear){
-            @include span-columns(10);
-            @include shift(1);
-            font-size: $base-font-size;
-        }
-    }
-    
     aside{
          
         @include span-columns(4 of 12);
@@ -56,7 +43,19 @@
             }
          }
     }
-    .veg-wrap{
+    .veg-overview{
+        font-size: $base-font-size * 1.2;
+        margin-bottom: $spacing-unit * 1.6;
+        @include span-columns(6 of 12);
+        @include shift(1);
+        @include media-query($mamabear){
+            @include span-columns(10);
+            @include shift(1);
+            font-size: $base-font-size;
+        }
+    }
+    
+    .veg-bg{
         margin-top: $spacing-unit;
         @include span-columns(12);
         background-color: $grey-color-lightest;
@@ -64,7 +63,7 @@
             @include span-columns(12);
         }
     }
-    .veg-content{
+    .veg-details{
         @include span-columns(10 of 12);
         @include shift(1);
     }
