@@ -4,8 +4,6 @@
     padding: 15px 0px;
     @include outer-container;
     max-width: none;
-    border-bottom: 1px solid $grey-color-light;
-
     .site-title{
 
         @include span-columns(8 of 12);

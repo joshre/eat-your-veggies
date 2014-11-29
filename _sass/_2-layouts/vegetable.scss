@@ -1,10 +1,10 @@
 .vegetable{
-    margin-top: $spacing-unit * 2.5;
+    padding-top: $spacing-unit * 2;
+    @include clearfix;
     header{
         @include span-columns(7 of 12);
         @include shift(1);
         float: none;
-
         h1{
             font-size: 3em;
             font-weight: 400;
@@ -28,7 +28,7 @@
         @include clearfix;
          
         float: right;
-        margin-top: $spacing-unit * 2;
+        margin-top: $spacing-unit * 4;
         
         @include media-query($mamabear){
 
@@ -45,7 +45,7 @@
     }
     .veg-overview{
         font-size: $base-font-size * 1.2;
-        margin-bottom: $spacing-unit * 1.6;
+        margin-bottom: $spacing-unit * 3;
         @include span-columns(6 of 12);
         @include shift(1);
         @include media-query($mamabear){
