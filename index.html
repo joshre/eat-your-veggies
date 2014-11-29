@@ -9,7 +9,7 @@ layout: default
     {% assign vegetables = site.vegetables | sort: 'order' %}
         <ul>
             {% for vegetable in vegetables %}
-                <li><a href="{{vegetable.url}}">{{vegetable.title}}</a></li>
+                <li><a href="{{ site.baseurl }}{{vegetable.url}}">{{vegetable.title}}</a></li>
             {% endfor %}
         </ul>
 
