@@ -13,3 +13,6 @@ markdown: kramdown
 collections:
     vegetables:
         output: true
+
+sass:
+  style: :compressed
