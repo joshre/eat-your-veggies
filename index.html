@@ -7,9 +7,11 @@ layout: default
     {{ home | markdownify }}
 
     {% assign vegetables = site.vegetables | sort: 'order' %}
+    <div>
         {% for vegetable in vegetables %}
 
-            <a class="veggie-sq" style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
+        <a class="veggie-sq" style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
 
         {% endfor %}
+    </div>
 </div>
