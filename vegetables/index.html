@@ -10,7 +10,7 @@ title: Vegetables
             {% assign vegetables = site.vegetables | sort: 'order' %}
             {% for vegetable in vegetables %}
    
-            <a style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
+            <a class="veggie-sq" style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
                
             {% endfor %}
 

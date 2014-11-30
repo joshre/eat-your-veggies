@@ -5,8 +5,8 @@
     }
     @include span-columns(10 of 12);
     @include shift(1);
-    
-    a {
+}
+.veggie-sq {
         
         @include span-columns(6 of 12);
         @include omega;
@@ -17,11 +17,17 @@
         text-align: center;
         text-decoration: none;
         font-family: $base-serif-font;
-        font-size: $spacing-unit * 1.6;
+        font-size: $base-font-size * 1.6;
         
+        @include media-query($mamabear){
+            font-size: $base-font-size;
+        }
         
         &:hover{
-            
+            text-decoration: underline;
+            color: white;
+        }
+        &:visited{
+            color:white;
         }
     }
-}
