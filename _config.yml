@@ -2,7 +2,7 @@
 title: Veggies.io
 email: your-email@domain.com
 description: Simplify healthy.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/veggies.io" # the subpath of your site, e.g. /blog/
 url: "veggies.io" # the base hostname & protocol for your site
 
 
