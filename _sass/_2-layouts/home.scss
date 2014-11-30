@@ -2,6 +2,9 @@
     @include standard-wrap;
     margin-top: $spacing-unit;
     font-size: $spacing-unit * 1.2;
+    p{
+        margin-bottom: 4em;
+    }
     h1{
         text-align: center;
         font-size: $base-font-size * 2.5;
@@ -9,5 +12,13 @@
             font-size: 1.3em;     
         }
              
+    }
+    .veggie-sq{
+        @include span-columns(12);
+        @include omega;
+        font-size: $base-font-size * 1.6;
+        @include media-query($mamabear){
+            font-size: $base-font-size;
+        }
     }
 }

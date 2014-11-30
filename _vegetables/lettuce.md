@@ -2,6 +2,7 @@
 layout: vegetable
 title: Lettuce
 prep:
+color: cad843
 illustration: lettuce.png
 main: >
     Lettuce (Lactuca sativa) is an annual plant of the aster or sunflower family Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. Lettuce was first cultivated by the ancient Egyptians who turned it from a weed, whose seeds were used to produce oil, into a plant grown for its seeds and leaves.

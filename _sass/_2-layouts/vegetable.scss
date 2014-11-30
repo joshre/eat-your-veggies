@@ -2,10 +2,20 @@
     padding-top: $spacing-unit * 2;
     @include clearfix;
     header{
+
         @include span-columns(7 of 12);
         @include shift(1);
+
+        @include media-query($mamabear){
+            @include span-columns(10);
+            @include shift(1);
+        }
+
         float: none;
+        color: white;
+        
         h1{
+
             font-size: 3em;
             font-weight: 400;
             
@@ -15,12 +25,6 @@
                 font-size: 2em;
              }
          }
-
-        @include media-query($mamabear){
-            @include span-columns(10);
-            @include shift(1);
-        }
-
     }
     aside{
          
@@ -48,6 +52,7 @@
         margin-bottom: $spacing-unit * 3;
         @include span-columns(6 of 12);
         @include shift(1);
+        color: white;
         @include media-query($mamabear){
             @include span-columns(10);
             @include shift(1);
