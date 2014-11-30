@@ -1,5 +1,5 @@
 # Site settings
-title: Veggies.io
+title: veggies.io
 email: your-email@domain.com
 description: Simplify healthy.
 baseurl: "/veggies.io" # the subpath of your site, e.g. /blog/
