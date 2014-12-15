@@ -21,6 +21,18 @@
         
         @include media-query($mamabear){
             font-size: $base-font-size;
+             @include span-columns(10 of 12);
+            @include shift(1);
+        
+            &:first-of-type{
+                border-top-left-radius: $spacing-unit * .3;
+                border-top-right-radius: $spacing-unit * .3;
+            }
+            &:last-of-type{
+                border-bottom-left-radius: $spacing-unit * .3;
+                border-bottom-right-radius: $spacing-unit * .3;
+            }
+
         }
         
         &:hover{
