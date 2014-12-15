@@ -5,6 +5,13 @@
     }
     @include span-columns(10 of 12);
     @include shift(1);
+
+    @include media-query($mamabear){
+            @include span-columns(12 of 12);
+            @include omega;
+            @include shift(0);
+            
+        }
 }
 .veggie-sq {
         
@@ -21,7 +28,7 @@
         
         @include media-query($mamabear){
             font-size: $base-font-size;
-             @include span-columns(10 of 12);
+            @include span-columns(10 of 12);
             @include shift(1);
         
             &:first-of-type{
