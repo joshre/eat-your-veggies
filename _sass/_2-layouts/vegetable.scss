@@ -1,74 +1,75 @@
-.vegetable{
+.vegetable {
     padding-top: $spacing-unit * 2;
     @include clearfix;
-    header{
 
+    header {
         @include span-columns(7 of 12);
         @include shift(1);
 
-        @include media-query($mamabear){
+        @include media-query($mamabear) {
             @include span-columns(10);
             @include shift(1);
         }
 
         float: none;
         color: white;
-        
-        h1{
 
+        h1 {
             font-size: 3em;
             font-weight: 400;
-            
-            @include media-query($mamabear){ 
+
+            @include media-query($mamabear) {
                 text-align: center;
-                margin-top: $spacing-unit * .4;
+                margin-top: $spacing-unit * 0.4;
                 font-size: 2em;
-             }
-         }
+            }
+        }
     }
-    aside{
-         
+
+    aside {
         @include span-columns(4 of 12);
         @include clearfix;
-         
         float: right;
         margin-top: $spacing-unit * 4;
-        
-        @include media-query($mamabear){
 
+        @include media-query($mamabear) {
             float: none;
             margin-top: 0px;
-            
             @include span-columns(12);
+
             img {
                 display: block;
                 margin: 0px auto;
-                max-width: 30%
+                max-width: 30%;
             }
-         }
+        }
     }
-    .veg-overview{
+
+    .veg-overview {
         font-size: $base-font-size * 1.2;
         margin-bottom: $spacing-unit * 3;
         @include span-columns(6 of 12);
         @include shift(1);
         color: white;
-        @include media-query($mamabear){
+
+        @include media-query($mamabear) {
             @include span-columns(10);
             @include shift(1);
             font-size: $base-font-size;
         }
     }
-    
-    .veg-bg{
+
+    .veg-bg {
         margin-top: $spacing-unit;
         @include span-columns(12);
         background-color: $grey-color-lightest;
-        @include media-query($mamabear){
+
+        @include media-query($mamabear) {
             @include span-columns(12);
         }
     }
-    .veg-details{
+
+    .veg-details {
         @include span-columns(10 of 12);
         @include shift(1);
     }

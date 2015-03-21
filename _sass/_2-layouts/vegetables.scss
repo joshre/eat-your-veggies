@@ -23,7 +23,7 @@
         color: white;
         text-align: center;
         text-decoration: none;
-        font-family: $base-serif-font;
+        font-family: $base-font-family;
         font-size: $base-font-size * 1.6;
         
         @include media-query($mamabear){
