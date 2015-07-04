@@ -1,10 +1,9 @@
 .home {
   margin-top: $spacing-unit;
   font-size: $spacing-unit * 1.2;
-  @include span-columns(10 of 12);
-  @include shift(1);
+
   p {
-    // @include standard-wrap;
+    @include standard-wrap;
     margin-bottom: 2.5em;
     text-align: center;
 
@@ -35,6 +34,28 @@
       margin: 1.2em 0 0 0;
     }
   }
+
+  .veggie-sq {
+    @include span-columns(6 of 12);
+    @include omega;
+    font-size: $base-font-size * 1.6;
+
+    @include media-query($mamabear) {
+      font-size: $base-font-size;
+      @include span-columns(10 of 12);
+      @include shift(1);
+
+      &:first-of-type {
+        border-top-left-radius: $spacing-unit * 0.3;
+        border-top-right-radius: $spacing-unit * 0.3;
+      }
+
+      &:last-of-type {
+        border-bottom-left-radius: $spacing-unit * 0.3;
+        border-bottom-right-radius: $spacing-unit * 0.3;
+      }
+    }
+  }
 }
 
 .bowl {
@@ -43,5 +64,6 @@
   svg {
     margin: 0 auto;
     display: table;
+    width: 200px;
   }
 }
