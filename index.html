@@ -3,11 +3,13 @@ layout: default
 ---
 
 <div class="home">
+    <div class="bowl">{% include bowl.svg %}</div>
     {% capture home %}{% include home.md %}{% endcapture %}
+    
     {{ home | markdownify }}
 
     {% assign vegetables = site.vegetables | sort: 'order' %}
-    <div>
+    <div class="veg-wrap">
         {% for vegetable in vegetables %}
 
         <a class="veggie-sq" style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>

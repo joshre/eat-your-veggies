@@ -1,0 +1,52 @@
+.vegetables {
+  h2 {
+    text-align: center;
+  }
+  @include span-columns(10 of 12);
+  @include shift(1);
+
+  @include media-query($mamabear) {
+    @include span-columns(12 of 12);
+    @include omega;
+    @include shift(0);
+  }
+}
+
+.veg-wrap {
+  @include row;
+
+  .veggie-sq {
+    font-size: $base-font-size;
+    @include span-columns(10 of 12);
+    @include shift(1);
+    padding: 1em 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: $base-font-family;
+
+    @include media(min-width $mamabear) {
+      @include span-columns(6 of 12);
+      @include shift(0);
+      @include omega(2n);
+      @include transition(all 0.2s ease-in-out);
+      font-size: $base-font-size * 1.6;
+      border-radius: $spacing-unit * .3;
+      margin-bottom: 1em;
+    }
+    @include media(min-width $papabear) {
+      @include omega-reset(2n);
+      @include span-columns(4 of 12);
+      @include omega(3n);
+  }
+
+    &:hover {
+      text-decoration: underline;
+      color: white;
+    }
+
+    &:visited {
+      color: white;
+    }
+  }
+}

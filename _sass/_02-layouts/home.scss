@@ -1,0 +1,68 @@
+.home {
+  margin-top: $spacing-unit;
+  font-size: $spacing-unit * 1.2;
+
+  p {
+    @include standard-wrap;
+    margin-bottom: 2.5em;
+    text-align: center;
+
+    @include media-query($monsterbear) {
+      font-size: $base-font-size * 2.4;
+    }
+
+    @include media-query($papabear) {
+      font-size: $base-font-size * 1.7;
+    }
+
+    @include media-query($mamabear) {
+      font-size: $base-font-size * 1.3;
+    }
+
+    @include media-query($babybear) {
+      font-size: $base-font-size * 1.1;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: $base-font-size * 3.2;
+    margin: ($spacing-unit * 1.3) 0 ($spacing-unit * 0.3) 0;
+
+    @include media-query($mamabear) {
+      font-size: $base-font-size * 1.5;
+      margin: 1.2em 0 0 0;
+    }
+  }
+
+  .veggie-sq {
+    @include span-columns(6 of 12);
+    @include omega;
+    font-size: $base-font-size * 1.6;
+
+    @include media-query($mamabear) {
+      font-size: $base-font-size;
+      @include span-columns(10 of 12);
+      @include shift(1);
+
+      &:first-of-type {
+        border-top-left-radius: $spacing-unit * 0.3;
+        border-top-right-radius: $spacing-unit * 0.3;
+      }
+
+      &:last-of-type {
+        border-bottom-left-radius: $spacing-unit * 0.3;
+        border-bottom-right-radius: $spacing-unit * 0.3;
+      }
+    }
+  }
+}
+
+.bowl {
+  margin: 2em 0 1.5em 0;
+
+  svg {
+    margin: 0 auto;
+    display: table;
+  }
+}

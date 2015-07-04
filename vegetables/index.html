@@ -2,16 +2,14 @@
 layout: default
 title: Vegetables
 ---
-
 <div class="vegetables">
-
-    <h2>Vegetables</h2>
-        
-            {% assign vegetables = site.vegetables | sort: 'order' %}
-            {% for vegetable in vegetables %}
-   
-            <a class="veggie-sq" style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
-               
-            {% endfor %}
-
+	<h2>Vegetables</h2>
+	
+	{% assign vegetables = site.vegetables | sort: 'order' %}
+	<div class="veg-wrap">
+		{% for vegetable in vegetables %}
+			<a class="veggie-sq" style="background-color:#{{vegetable.color}};" href="{{site.baseurl}}{{vegetable.url}}">{{vegetable.title}}</a>
+			
+		{% endfor %}
+	</div>
 </div>
