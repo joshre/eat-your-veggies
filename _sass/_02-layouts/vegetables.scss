@@ -24,21 +24,22 @@
     text-align: center;
     text-decoration: none;
     font-family: $base-font-family;
-
+    border-radius: $spacing-unit * 0.3;
+    margin-bottom: 1em;
+font-size: $base-font-size * 1.3;
     @include media(min-width $mamabear) {
       @include span-columns(6 of 12);
       @include shift(0);
       @include omega(2n);
       @include transition(all 0.2s ease-in-out);
       font-size: $base-font-size * 1.6;
-      border-radius: $spacing-unit * .3;
-      margin-bottom: 1em;
     }
+
     @include media(min-width $papabear) {
       @include omega-reset(2n);
       @include span-columns(4 of 12);
       @include omega(3n);
-  }
+    }
 
     &:hover {
       text-decoration: underline;
