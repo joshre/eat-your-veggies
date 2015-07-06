@@ -14,13 +14,16 @@
 
 .veg-wrap {
   @include row;
-  @include span-columns(10 of 12);
-  @include shift(1);
+
+  @include media(min-width $mamabear) {
+    @include span-columns(10 of 12);
+    @include shift(1);
+  }
 
   .veggie-sq {
     font-size: $base-font-size;
-    @include span-columns(10 of 12);
-    @include shift(1);
+    @include span-columns(11 of 12);
+    @include shift(.5);
     padding: 1em 0;
     color: white;
     text-align: center;
