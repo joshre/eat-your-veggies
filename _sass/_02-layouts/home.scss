@@ -35,35 +35,13 @@
     }
   }
 
-  .veggie-sq {
-    @include span-columns(6 of 12);
-    @include omega;
-    font-size: $base-font-size * 1.6;
+  .bowl {
+    margin: 2em 0 1.5em 0;
 
-    @include media-query($mamabear) {
-      font-size: $base-font-size;
-      @include span-columns(10 of 12);
-      @include shift(1);
-
-      &:first-of-type {
-        border-top-left-radius: $spacing-unit * 0.3;
-        border-top-right-radius: $spacing-unit * 0.3;
-      }
-
-      &:last-of-type {
-        border-bottom-left-radius: $spacing-unit * 0.3;
-        border-bottom-right-radius: $spacing-unit * 0.3;
-      }
+    svg {
+      margin: 0 auto;
+      display: block;
+      width: 200px;
     }
-  }
-}
-
-.bowl {
-  margin: 2em 0 1.5em 0;
-
-  svg {
-    margin: 0 auto;
-    display: table;
-    width: 200px;
   }
 }
