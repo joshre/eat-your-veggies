@@ -1,10 +1,6 @@
-{% if page.color %}
-<header class="site-header bg-fade">
-{% else %}
-<header class="site-header">
-{% endif %}
-    <a class="site-title" href="{{ site.baseurl }}/"><img width="110" src="{{ site.baseurl }}/resources/logo.svg"></a>
-          <a class="page-link" href="{{site.baseurl }}/vegetables">Vegetables</a>
-    </nav>
-    
+<header class="site-header {% if page.color %}bg-fade{% endif %}">
+<nav class="outer">
+	<a class="site-title" href="{{ site.baseurl }}/"><img width="110" height="28" src="{{ site.baseurl }}/resources/logo.svg"></a>
+	<a class="page-link" href="{{site.baseurl }}/about">About</a>
+</nav>
 </header>

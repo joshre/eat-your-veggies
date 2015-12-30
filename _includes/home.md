@@ -1,1 +1,1 @@
-Our health is incredibly important, healthy decisions ought to be incredibly basic.
+### Our health is important, healthy decisions ought to be basic.
