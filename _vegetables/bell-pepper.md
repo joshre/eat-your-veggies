@@ -3,18 +3,19 @@ layout: vegetable
 title: Bell Pepper
 prep: Raw, Skillet, Grill, Oven, Boil
 color: cb2036
-illustration: bell-pepper.png
+illustration: bell-pepper.svg
+credit: by Marco Galtarossa
 main: >
     Lets just get this out of the way up front: bell peppers have seeds, and are technically fruit. Bell peppers are a low-to-non pungent pepper, sometimes considerably sweet. They're full of antioxidants and Vitamin C—Generally speaking, red peppers have more vitamins and antioxidants, with twice the vitamin C and nine times the Carotene & Lycopene.
 ---
 
-### General Prep
+##### General Prep
 
 * Wash them well.
 * Remove seeds and ribs from peppers; cut lengthwise into strips and halve crosswise.
 
 
-### Raw 
+##### Raw 
 
 Eat them raw. 
 

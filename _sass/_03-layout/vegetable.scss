@@ -1,0 +1,53 @@
+header.vegetable {
+    // animation: shrink .3s ease-in-out alternate 1;
+}
+
+.vegetable {
+    padding-top: $spacing-unit * 2;
+
+    @include row;
+}
+
+.span-full {
+    @include display(flex);
+
+    @include justify-content(center);
+}
+
+.veg-head {
+    color: white;
+
+    .veg-head--details {
+        @include flex(0.7);
+
+        margin-right: 4em;
+    }
+
+    aside {
+        @include flex(0.3);
+
+        animation: fadein .3s ease-in-out alternate 1;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+// body content
+.veg-bg {
+    margin-top: $spacing-unit;
+    background-color: $grey-color-lightest;
+}

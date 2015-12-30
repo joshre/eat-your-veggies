@@ -1,0 +1,65 @@
+// // svg
+#bowl-icon {
+    #orange {
+        animation: bounce .45s ease-in-out alternate 1;
+
+        // animation-delay: 0.3s;
+   
+    }
+
+    #yellow {
+        animation: bounce-roll .6s ease-in-out alternate 1;
+
+        // animation-delay: 0.4s;
+   
+    }
+
+    #red {
+        animation: bounce .3s ease-in-out alternate 1;
+
+        // animation-delay: 0.2s;
+   
+    }
+
+    #bowl {}
+}
+
+@keyframes bounce {
+    0% {
+        @include transform(translateY(-50%));
+    }
+
+    70% {
+        @include transform(translateY(8%));
+    }
+
+    85% {
+        @include transform(translateY(-3%));
+    }
+
+    100% {
+        @include transform(translateY(0%));
+    }
+}
+
+@keyframes bounce-roll {
+    0% {
+        @include transform(translateY(-50%));
+    }
+
+    70% {
+        @include transform(rotate(1deg) translateY(8%));
+    }
+
+    77% {
+        @include transform(rotate(0deg));
+    }
+
+    85% {
+        @include transform(translateY(-3%));
+    }
+
+    100% {
+        @include transform(translateY(0%));
+    }
+}

@@ -1,15 +1,1 @@
-<svg version="1.1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="167.1px" height="131.2px" viewBox="0 0 167.1 131.2" enable-background="new 0 0 167.1 131.2"
-	 xml:space="preserve">
-<defs>
-</defs>
-<path id="XMLID_19_" fill="#00CC6B" d="M47.6,15.7c5-2.2-10.6-12.7-2.4-15.3c8.2-2.7,4.2,10.5,7.1,15c2.8-0.1,4-0.4,8,1.8
-	c-0.7,7.6-13.4,14.5-20.6,5.2C40.6,18.8,44.3,17.1,47.6,15.7z"/>
-<circle id="XMLID_18_" fill="#FF7F0B" cx="81.4" cy="41.7" r="28.2"/>
-<circle id="XMLID_17_" fill="#FFC400" cx="49.9" cy="27.3" r="19.9"/>
-<circle id="XMLID_16_" fill="#C60021" cx="125.5" cy="53.1" r="34.9"/>
-<path id="XMLID_15_" fill="#CFA36D" d="M167.1,57.4c0,39.7-37.5,73.9-82.9,73.9c-41.3,0-89.2-32-83.8-77.5
-	c0.8-7.1,4.7-15.5,9.7-20.8c5.5-5.7,15.2-8.1,22.4-8c8.2,0.2,16.3,3.3,22.4,8.7C61.1,39,65,46.2,70,52.5
-	c5.8,7.3,12.5,11.3,21.4,13.8c12.3,3.4,25.9,4.3,38.5,2.8c6.4-0.8,12.8-2.2,18.9-4.2C151,64.2,164.9,58.5,167.1,57.4z"/>
-</svg>
+<svg id="bowl-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.81 166.81"><defs><style>.cls-1{fill:#ff7f0b;}.cls-2{fill:#ffc400;}.cls-3{fill:#00cc6b;}.cls-4{fill:#c60021;}.cls-5{fill:#ecb583;}.cls-6{fill:none;}</style></defs><title>bowl</title><circle id="orange" class="cls-1" cx="81.41" cy="90.29" r="28.22"/><g id="yellow"><path id="yellow-2" data-name="yellow" class="cls-2" d="M45.84,61.07a19.89,19.89,0,1,1-1,0l1,0" transform="translate(0 0)"/><path class="cls-3" d="M40,61.65c-2.21-3.18-3.94-6.38.1-7.69,5-1.61,5.47,2.56,5.72,7.12Z" transform="translate(0 0)"/></g><circle id="red" class="cls-4" cx="125.47" cy="103.7" r="34.85"/><path id="bowl" class="cls-5" d="M162.38,107.42a3.25,3.25,0,0,1,4.41,3.27c-3.57,30.71-39.5,56.12-82.62,56.12C42.86,166.81-5,140.35.42,102.66c0.84-5.84,4.66-12.84,9.73-17.21,5.48-4.73,15.17-6.71,22.43-6.6A39.6,39.6,0,0,1,55,86C61.06,90.49,65,96.44,70,101.66c5.76,6,12.48,9.35,21.41,11.41A122.17,122.17,0,0,0,130,115.4a116,116,0,0,0,18.92-3.47C150.38,111.54,157.44,109.17,162.38,107.42Z" transform="translate(0 0)"/><rect class="cls-6" width="166.81" height="166.81"/></svg>

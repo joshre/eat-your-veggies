@@ -3,20 +3,25 @@
 // Our variables
 $base-font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 
-$base-font-size:   19px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size: 19px;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.6;
 
-$spacing-unit:     1em;
+$spacing-unit: 1em;
 
-$text-color:       #353535;
+$text-color: #353535;
 $background-color: #fdfdfd;
-$brand-color:      #67809F;
+$brand-color: #67809F;
 
-$grey-color:       #353535;
+$grey-color: #353535;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-lightest: lighten($grey-color, 75%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
+
+// Playing nice with the bitters styles i blatantly stole
+$small-spacing: $spacing-unit * 0.6;
+$base-border-color: $grey-color;
+$base-border: 1px solid $base-border-color;
 
 // Breakpoints
 $babybear: 321px;
@@ -29,24 +34,73 @@ $monsterbear: 1300px;
         @content;
     }
 }
-main{
-    @include omega;
-    @include clearfix;
-}
-@mixin standard-wrap(){
-   
-    @include span-columns(8 of 12);
-    @include shift(2);
-    @include clearfix;
-   
-    @include media-query($mamabear){
-    
-        @include span-columns(10 of 12);
-        @include shift(1);
-    
+
+main {}
+
+$max: (xs: 480px, sm: 35em, md: 40em, lg: 50em, xl: 50em);
+
+//
+// Media Queries & Breakpoints
+//
+
+// Extra small screen / phone
+$screen-xs-width: 480px !default;
+
+// Small screen / tablet
+$screen-sm-width: 768px !default;
+
+// Medium screen / desktop
+$screen-md-width: 992px !default;
+
+// Large screen / wide desktop
+$screen-lg-width: 1200px !default;
+
+// Monster screen / wide desktop
+$screen-xl-width: 1500px !default;
+
+// So media queries don't overlap when required, provide a maximum
+
+$screen-xs: new-breakpoint(min-width $screen-xs-width 12);
+$screen-sm: new-breakpoint(min-width $screen-sm-width 12);
+$screen-md: new-breakpoint(min-width $screen-md-width 12);
+$screen-lg: new-breakpoint(min-width $screen-lg-width 12);
+$screen-xl: new-breakpoint(min-width $screen-xl-width 12);
+
+$screen-sm-max: new-breakpoint(max-width $screen-sm-width 12);
+$screen-md-max: new-breakpoint(max-width $screen-md-width 12);
+
+@mixin standard-wrap {
+    @include pad(2em 1em 1em 1em);
+
+    @include media($screen-xs) {
+        @include outer-container(map-get($max, xs));
+    }
+
+
+    @include media($screen-sm) {
+        @include outer-container(map-get($max, sm));
+
+        @include pad(2em 0 1em 0);
+    }
+
+
+    @include media($screen-md) {
+        @include outer-container(map-get($max, md));
+
+        @include pad(2em 0 1em 0);
+    }
+
+
+    @include media($screen-lg) {
+        @include outer-container(map-get($max, lg));
+
+        @include pad(2em 0 1em 0);
+    }
+
+
+    @include media($screen-xl) {
+        @include outer-container(map-get($max, xl));
+
+        @include pad(2em 0 1em 0);
     }
 }
-
-
-
-

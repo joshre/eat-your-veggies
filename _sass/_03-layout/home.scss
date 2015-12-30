@@ -1,0 +1,20 @@
+.home {
+    margin-top: $spacing-unit;
+
+    p, h3 {
+        @include standard-wrap;
+
+
+        text-align: center;
+    }
+
+    .bowl {
+        margin: 2em 0 1.5em 0;
+
+        svg {
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+        }
+    }
+}
