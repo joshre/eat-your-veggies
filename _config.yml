@@ -1,9 +1,9 @@
 # Site settings
-title: veggies.io
-email: your-email@domain.com
-description: Simplify healthy.
+title: veggies
+email: joshre@me.com
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "veggies.io" # the base hostname & protocol for your site
+url: "veggies.casa" # the base hostname & protocol for your site
 
 
 # Build settings
