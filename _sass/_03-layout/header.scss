@@ -1,5 +1,5 @@
 .site-header {
-    background-color: $grey-color-light;
+    background-color: #7EBA73;
     color: white;
 
     .page-link {
@@ -8,9 +8,12 @@
         border: 1px solid;
         color: white;
         height: 36.75px;
+
         @include pad(0.125em 1em);
-        @include transition ( all .2s ease-in-out );
-        &:hover{
+
+        @include transition(all 0.2s ease-in-out);
+
+        &:hover {
             text-decoration: none;
             background-color: white;
             color: $grey-color-light;
