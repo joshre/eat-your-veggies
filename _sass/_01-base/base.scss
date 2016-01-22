@@ -139,6 +139,12 @@ pre {
     @include standard-wrap;
 }
 
+.outer-desk {
+    @include media(min-width $mamabear) {
+        @include standard-wrap;
+    }
+}
+
 .wf-loading {
     h1, h2, h3, h4, h5, h6, p, a {
         visibility: hidden;

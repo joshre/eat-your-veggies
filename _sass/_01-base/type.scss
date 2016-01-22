@@ -1,8 +1,10 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: $base-font-family;
-    font-weight: 400;
+    font-weight: 300;
 }
-
+body{
+    font-weight: 100;
+}
 // mobile
 h1 {
     font-size: 2 * $base-font-size;
