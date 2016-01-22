@@ -50,6 +50,8 @@
         @include media(min-width $mamabear) {
             // padding: 1em 0;
             color: white;
+            text-align: center;
+            background-image: none !important;
 
             // text-align: center;
             border-radius: $spacing-unit * 0.3;
