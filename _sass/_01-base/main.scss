@@ -70,10 +70,11 @@ $screen-sm-max: new-breakpoint(max-width $screen-sm-width 12);
 $screen-md-max: new-breakpoint(max-width $screen-md-width 12);
 
 @mixin standard-wrap {
-    @include pad(2em 1em 1em 1em);
+    @include pad( 1em );
 
     @include media($screen-xs) {
         @include outer-container(map-get($max, xs));
+        @include pad(2em 1em 1em 1em);
     }
 
 

@@ -3,7 +3,10 @@ header.vegetable {
 }
 
 .vegetable {
-    padding-top: $spacing-unit * 2;
+    @include media(min-width $mamabear) {
+        padding-top: $spacing-unit * 2;
+    }
+
 
     @include row;
 }
@@ -18,17 +21,22 @@ header.vegetable {
     color: white;
 
     .veg-head--details {
-        @include flex(0.7);
+        @include media(min-width $mamabear) {
+            @include flex(0.7);
 
-        margin-right: 4em;
+            margin-right: 4em;
+        }
     }
 
     aside {
-        @include flex(0.3);
+        @include media(min-width $mamabear) {
+            @include flex(0.3);
 
-        animation: fadein .3s ease-in-out alternate 1;
-        background-position: center center;
-        background-repeat: no-repeat;
+            animation: fadein .3s ease-in-out alternate 1;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
 
         img {
             width: 100%;
