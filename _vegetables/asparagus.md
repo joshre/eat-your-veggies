@@ -2,7 +2,7 @@
 layout: vegetable
 title: Asparagus
 prep:
-color: abb941
+color: 9fac3e
 illustration: asparagus.svg
 credit: by Marco Galtarossa, Noun Project
 main: >

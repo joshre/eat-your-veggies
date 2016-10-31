@@ -2,7 +2,7 @@
 layout: vegetable
 title: Lettuce
 prep:
-color: cad843
+color: d1e459
 illustration: lettuce.svg
 credit: by YuguDesign
 main: >

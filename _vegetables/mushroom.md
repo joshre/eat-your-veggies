@@ -2,7 +2,7 @@
 layout: vegetable
 title: Mushroom
 prep:
-color: b9b189
+color: c2b58c
 illustration: mushroom.svg
 credit: by Clockwise
 main: >

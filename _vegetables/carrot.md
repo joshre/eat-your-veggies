@@ -2,7 +2,7 @@
 layout: vegetable
 title: Carrot
 prep:
-color: df922e
+color: e19630
 illustration: carrot.svg
 credit: by Marco Galtarossa
 main: >

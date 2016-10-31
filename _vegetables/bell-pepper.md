@@ -2,7 +2,7 @@
 layout: vegetable
 title: Bell Pepper
 prep: Raw, Skillet, Grill, Oven, Boil
-color: cb2036
+color: f24e61
 illustration: bell-pepper.svg
 credit: by Marco Galtarossa
 main: >

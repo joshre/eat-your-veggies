@@ -2,7 +2,7 @@
 layout: vegetable
 title: Peas
 prep:
-color: 7eba73
+color: 7daf71
 illustration: pea.svg
 credit: by Yi Chen
 main: >

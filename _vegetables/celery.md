@@ -2,7 +2,7 @@
 layout: vegetable
 title: Celery
 prep:
-color: ccd579
+color: dfe180
 illustration: celery.svg
 credit: by Clockwise
 main: >

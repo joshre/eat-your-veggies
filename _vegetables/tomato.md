@@ -2,7 +2,7 @@
 layout: vegetable
 title: Tomato
 prep:
-color: c55a34
+color: cd6b3c
 illustration: tomato.svg
 credit: by Mario Bieh
 main: >

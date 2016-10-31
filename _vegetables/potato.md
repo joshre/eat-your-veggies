@@ -2,7 +2,7 @@
 layout: vegetable
 title: Potato
 prep:
-color: 966a4d
+color: 946744
 illustration: potato.svg
 credit: by Marco Galtarossa
 main: >

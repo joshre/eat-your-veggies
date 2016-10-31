@@ -2,7 +2,7 @@
 layout: vegetable
 title: Onion
 prep:
-color: ecd94c
+color: eedc50
 illustration: onion.svg
 credit: by Creative Stall
 main: >

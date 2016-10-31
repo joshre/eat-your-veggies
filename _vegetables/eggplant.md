@@ -2,7 +2,7 @@
 layout: vegetable
 title: Eggplant
 prep:
-color: 91738e
+color: 816578
 illustration: eggplant.svg
 credit: by Muharrem Fevzi Çelik
 main: >
